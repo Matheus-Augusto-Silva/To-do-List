@@ -1,0 +1,109 @@
+/* cssreset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(45, 52, 61);
+}
+li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+/* css titulo */
+.titulo-logo{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.titulo-logo img{
+    width: 200px;
+    margin-top: 35px;
+}
+.titulo{
+    color: white;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 39px;
+    color: #d33245;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/* Css container */
+
+.container {
+    width: 700px;
+    min-height: 400px;
+    max-height: fit-content;
+    margin: 50px auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
+.flex {
+    display: flex;
+}
+
+/* css itens */
+.new-todo-item {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 90%;
+    height: 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(211, 50, 69);
+}
+#add-todo-item{
+    position: relative;
+    height: max-content;
+    right: 49px;
+    cursor: pointer;
+    top: 55px;
+    color: white;
+    border-width: 0px;
+    border-style: none;
+}
+#add-todo-item:hover{
+    color:rgb(211, 50, 69) ;
+}
+
+#formulario{
+    display: block;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    color: white;
+    margin: 4rem 0px 1rem 4rem;
+}
+/* Tarefas selecionadas */
+input[type=checkbox] {
+    transform: scale(2);
+    margin-right: 20px;
+}
+.delete{
+    position: absolute;
+    background-color: white;
+    color: red;
+    padding: 3px;
+    margin: 5px 10px;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+    
+}
+.strike {
+  text-decoration: line-through;
+}
+
+

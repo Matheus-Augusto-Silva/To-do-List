@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+      <div class="titulo-logo">  
+        <h1 class="titulo"> TO DO LIST</h1> <img src="img/conquistesuavaga.png" alt="Logo">
+      </div>  
+        <h2 class="subtitulo"> E aí turma, prontos para salvar suas tarefas?</h2>
+
+    </header>
+    <section class="container">  
+      <div class="flex">
+          <input type="text" placeholder="digite sua tarefa" name="Task" id="new-todo-item" class="new-todo-item">
+          <button id="add-todo-item">
+            <i class="material-icons adicionar">add</i>
+          </button>
+       </div>
+       <form id="formulario">
+        <ul id="todo-list" class="todo-list">
+        </ul>
+       </form>
+    </section>
+</body>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</html>
